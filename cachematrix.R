@@ -2,10 +2,19 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
-
+# this function acts like a class in other languages, 
+# but It's actually a list of getter and setter functions 
+# The data part of makeCacheMatrix will hold a matrix
+# of the cached Solve solutions. 
 makeCacheMatrix <- function(x = matrix()) {
+	#initialize data
+	mdata <- null
 
+
+	set <- function(y){
+		x <<- y
+		mdata <<- null
+	}
 }
 
 
